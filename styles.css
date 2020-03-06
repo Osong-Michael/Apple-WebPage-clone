@@ -4,7 +4,7 @@
   margin: 0;
 } */
 
-body, main {
+body, main, footer {
   padding: 0;
   margin: 0;
   width: 1366px;
@@ -125,7 +125,68 @@ body, main {
 .product {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
+
+.first-footer {
+  width: 75%;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-shop1, .footer-shop2 {
+  display: flex;
+  font-size: 10px;
+  margin-top: 15px;
+  height: 20px;
+  color: #666;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+.footer-shop1 a, 
+.footer-shop2 a,
+.second-footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer-shop1 {
+  width: 50%;
+  height: 20px
+}
+
+.footer-shop2 {
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.footer-shop-right {
+  border-right: 1px solid #b2b8b4;
+  height: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.footer-img {
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.second-footer {
+  width: 35%;
+  height: 20px;
+  margin-left: 170px;
+  padding-top: 12px;
+  font-size: 10px;
+  color: #666;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
 
 .last-text:hover {
   background-image: url(img/H3_hover.png);
@@ -134,4 +195,16 @@ body, main {
 .navbar-icons:hover,
 .logo:hover {
   background-color: rgb(78, 78, 78);
+}
+
+.footer-shop1 a:hover,
+.footer-shop2 a:hover,
+.second-footer a:hover {
+  text-decoration: underline;
+}
+
+#border-left {
+  border-left: 1px solid #b2b8b4;
+  padding-left: 10px;
+  margin-left: 10px;
 }
