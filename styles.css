@@ -4,7 +4,9 @@
   margin: 0;
 } */
 
-body, main, footer {
+body,
+main,
+footer {
   padding: 0;
   margin: 0;
   width: 1360px;
@@ -137,7 +139,8 @@ body, main, footer {
   justify-content: space-between;
 }
 
-.footer-shop1, .footer-shop2 {
+.footer-shop1,
+.footer-shop2 {
   display: flex;
   font-size: 10px;
   margin-top: 15px;
@@ -146,8 +149,7 @@ body, main, footer {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-
-.footer-shop1 a, 
+.footer-shop1 a,
 .footer-shop2 a,
 .second-footer a {
   color: #08c;
@@ -156,7 +158,7 @@ body, main, footer {
 
 .footer-shop1 {
   width: 50%;
-  height: 20px
+  height: 20px;
 }
 
 .footer-shop2 {
@@ -187,7 +189,6 @@ body, main, footer {
   color: #666;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
-
 
 .last-text:hover {
   background-image: url(img/H3_hover.png);
