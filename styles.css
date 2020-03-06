@@ -7,13 +7,13 @@
 body, main, footer {
   padding: 0;
   margin: 0;
-  width: 1366px;
+  width: 1360px;
 }
 
 .main-body {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 99%;
   height: 538px;
   background-image: url(img/bg_img.jpg);
   background-position: 100% 100%;
@@ -69,7 +69,7 @@ body, main, footer {
 }
 
 .navbar-input {
-  width: 16%;
+  width: 17%;
   height: 100%;
   border-left: 1px solid rgba(85, 85, 85, 1);
   color: whitesmoke;
@@ -123,6 +123,7 @@ body, main, footer {
 }
 
 .product {
+  width: 99%;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
