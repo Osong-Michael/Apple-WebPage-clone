@@ -5,7 +5,7 @@ footer {
   width: 1360px;
 }
 
-main {
+section {
   margin: auto;
 }
 
@@ -34,12 +34,12 @@ main {
 .navbar-icons {
   width: 15%;
   height: 100%;
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   border-left: 1px solid #555;
   cursor: pointer;
-  transition: 0.1s;
+  transition: 0.1s; */
 }
 
 .navbar-icons a {
