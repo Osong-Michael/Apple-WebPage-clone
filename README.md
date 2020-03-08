@@ -6,6 +6,7 @@ Screenshot of Page
 
 ![screenshot](img/screenshot.PNG)
 
+> For this project I cloned an old apple page that displayed a navbar with a beautiful two toned background color. I was able to achieve this look by using a css property (gradient), precisely a linear gradient to give two similar colors (with slight differences when put side by side each other) a 50% value: This means one color starts and stops when it reaches 50% or half of the element vertically and the other color continues to give that element a nice two toned look.
 
 ## Built With
 
