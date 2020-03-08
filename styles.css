@@ -1,15 +1,12 @@
-/* * {
-  width: 1280px;
-  padding: 0;
-  margin: 0;
-} */
-
 body,
-main,
 footer {
   padding: 0;
   margin: 0;
   width: 1360px;
+}
+
+main {
+  margin: auto;
 }
 
 .main-body {
