@@ -2,7 +2,7 @@ body,
 footer {
   padding: 0;
   margin: 0;
-  width: 1360px;
+  width: 100%;
 }
 
 section {
@@ -12,11 +12,13 @@ section {
 .main-body {
   display: flex;
   flex-direction: column;
-  width: 99%;
+  width: 100%;
+  margin: auto;
   height: 538px;
   background-image: url(img/bg_img.jpg);
   background-position: 100% 100%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
@@ -126,7 +128,7 @@ section {
 }
 
 .product {
-  width: 99%;
+  /* width: 90%; */
   display: flex;
   justify-content: space-between;
   cursor: pointer;
