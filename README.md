@@ -15,7 +15,7 @@ Screenshot of Page
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/OA7/Apple-WebPage-clone/88a95947800d08dc9b861b63019ac77d5c432f6f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/OA7/Apple-WebPage-clone/1d4647dde5449247b7e008378c4389b65a4c3df6/index.html)
 
 
 ## Author
